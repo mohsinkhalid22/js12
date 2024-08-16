@@ -12,8 +12,8 @@ console.log(headings);
 let parahs = document.getElementsByTagName("p");
 console.dir(parahs);
 
-let firstEl = document.querySelector("h1");
+let firstEl = document.querySelector("#myId");
 console.dir(firstEl);
 
-let allEl = document.querySelectorAll;
+let allEl = document.querySelectorAll(".myClass");
 console.dir(allEl);
