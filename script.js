@@ -17,3 +17,6 @@ console.dir(firstEl);
 
 let allEl = document.querySelectorAll(".myClass");
 console.dir(allEl);
+
+let div = document.querySelector("div");
+console.log(div);
